@@ -115,7 +115,6 @@ class LoggingProgress(AtomicBehavior):
         logging.info(self.msg)
         return py_trees.common.Status.SUCCESS
 
-
 class Crossing1(BasicScenario):
 
     def __init__(self, world, ego_vehicles, config, randomize=False,
@@ -4169,7 +4168,6 @@ class Crossing18(BasicScenario):
         Remove all actors upon deletion
         """
         self.remove_all_actors()
-
 
 class Crossing19(BasicScenario):
 
